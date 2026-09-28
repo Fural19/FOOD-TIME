@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Time | Delicious Food</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Food Time</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="tagline">Fresh • Delicious • Fast</p>
+
+                <h2>Good Food,<br>Good Mood.</h2>
+
+                <p>
+                    Enjoy delicious food made fresh with quality
+                    ingredients and served with love.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </section>
+
+
+        <section id="menu" class="menu-section">
+            <h2>Our Popular Menu</h2>
+
+            <div class="menu-container">
+
+                <div class="food-card">
+                    <div class="food-image">🍔</div>
+                    <h3>Zinger Burger</h3>
+                    <p>Crispy chicken, fresh vegetables & special sauce.</p>
+                    <span>Rs. 499</span>
+                    <button onclick="orderFood('Zinger Burger', 499)">
+    Order on WhatsApp
+</button>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-image">🍕</div>
+                    <h3>Chicken Pizza</h3>
+                    <p>Loaded with chicken, cheese and delicious toppings.</p>
+                    <span>Rs. 899</span>
+                    <button onclick="orderFood('Chicken Pizza', 899)">
+    Order on WhatsApp
+</button>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-image">🍟</div>
+                    <h3>Loaded Fries</h3>
+                    <p>Crispy fries with cheese and our special sauce.</p>
+                    <span>Rs. 349</span>
+                    <button onclick="orderFood('Loaded Fries', 349)">
+    Order on WhatsApp
+</button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="about" class="about-section">
+            <h2>About Food Time</h2>
+
+            <p>
+                At Food Time, we believe great food brings people together.
+                We prepare every meal using fresh ingredients and delicious
+                flavors to give our customers a memorable experience.
+            </p>
+        </section>
+
+
+        <section id="contact" class="contact-section">
+            <h2>Order Your Food</h2>
+
+            <p>Hungry? Contact us now and place your order.</p>
+
+            <a href="https://wa.me/923001234567" class="btn">
+                Order on WhatsApp
+            </a>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Food Time. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
